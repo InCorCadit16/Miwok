@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2016 The Android Open Source Project
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9          http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.miwok"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="26" />
+24-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml
+25
+26    <application
+26-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:19:5-36:19
+27        android:allowBackup="true"
+27-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:20:9-35
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:21:9-43
+30        android:label="@string/app_name"
+30-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:22:9-41
+31        android:supportsRtl="true"
+31-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:23:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:24:9-40
+34        <activity android:name="com.example.android.miwok.MainActivity" >
+34-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:25:9-31:20
+34-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:25:19-47
+35            <intent-filter>
+35-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:27:17-69
+36-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:29:17-77
+38-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:32:9-94
+42            android:name="com.example.android.miwok.NumbersActivity"
+42-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:32:60-91
+43            android:label="@string/category_numbers" />
+43-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:32:19-59
+44        <activity
+44-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:33:9-92
+45            android:name="com.example.android.miwok.ColorsActivity"
+45-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:33:59-89
+46            android:label="@string/category_colors" />
+46-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:33:19-58
+47        <activity
+47-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:34:9-94
+48            android:name="com.example.android.miwok.PhrasesActivity"
+48-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:34:60-91
+49            android:label="@string/category_phrases" />
+49-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:34:19-59
+50        <activity
+50-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:35:9-92
+51            android:name="com.example.android.miwok.FamilyActivity"
+51-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:35:59-89
+52            android:label="@string/category_family" />
+52-->D:\Projects\AndroidProjects\Miwok\app\src\main\AndroidManifest.xml:35:19-58
+53
+54        <meta-data
+54-->[com.android.support:design:26.1.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:26:9-28:38
+55            android:name="android.support.VERSION"
+55-->[com.android.support:design:26.1.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:27:13-51
+56            android:value="26.1.0" />
+56-->[com.android.support:design:26.1.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\0bcf2e97a63ea0c99df3f827bccd936f\design-26.1.0\AndroidManifest.xml:28:13-35
+57        <meta-data
+57-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+58            android:name="android.arch.lifecycle.VERSION"
+58-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:26:13-58
+59            android:value="27.0.0-SNAPSHOT" />
+59-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\incorcadit\.gradle\caches\transforms-2\files-2.1\d0f6449185399ce77e6ff49656abaac3\runtime-1.0.0\AndroidManifest.xml:27:13-44
+60    </application>
+61
+62</manifest>
